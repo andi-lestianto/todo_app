@@ -99,8 +99,7 @@ showBottomSheet(
           child: TextField(
             decoration: InputDecoration(
               border: const OutlineInputBorder(),
-              // Used a ternary operator to check if isUpdate is true then display
-              // Update Todo.
+              // Used a ternary operator to check if isUpdate is true then display update Todo.
               labelText: isUpdate ? 'Update Todo' : 'Add Todo',
               hintText: 'Enter An Item',
             ),
